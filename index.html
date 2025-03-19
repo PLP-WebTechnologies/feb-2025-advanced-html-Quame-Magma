@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Elements</title>
+</head>
+<body>
+    <h1>Ordered List With Roman Numerals</h1>
+    <ol type="i">
+        <li>Home</li>
+        <li>School</li>
+        <li>Church</li>
+        <li>Work</li>
+        <li>Travel</li>
+    </ol> <br>
+
+    <h1>Adding an Image from an External Website</h1>
+    <img src="https://images.pexels.com/photos/30852439/pexels-photo-30852439/free-photo-of-tourists-enjoying-summer-day-at-igreja-do-carmo.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load" alt="A Beautiful Environment" style="height: 700px; width: 500px;">
+    <br> <br>
+
+    <h1>Creating a Table with 5 Contacts</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>example@example.com</td>
+            <td>123-456-7890</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>example@example.com</td>
+            <td>123-456-7890</td>
+        </tr>
+        <tr>
+            <td>Kwame Doe</td>
+            <td>example@example.com</td>
+            <td>123-456-7890</td>
+        </tr>
+        <tr>
+            <td>Ama Doe</td>
+            <td>example@example.com</td>
+            <td>123-456-7890</td>
+        </tr>
+        <tr>
+            <td>Eric Doe</td>
+            <td>example@example.com</td>
+            <td>123-456-7890</td>
+        </tr>
+    </table>
+    <br> <br>
+
+    <form action="">
+        <h1>Creating a Registration Form</h1>
+        <!-- Name Section -->
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required placeholder="Enter Name"> <br> <br>
+        
+        <!-- Email Section -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="Enter Email"> <br> <br>
+        
+        <!-- Password Section -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required placeholder="Enter Password"> <br> <br>
+        
+        <!-- Confirm Password Section -->
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" name="confirm_password" id="confirm_password" required placeholder="Confirm Password"> <br> <br>
+        
+        <!-- Date Section -->
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" required> <br> <br>
+        
+        <!-- Country (Drop-Down) Section -->
+        <label for="country">Country</label>
+        <select name="country" id="country" required>
+            <option value="Ghana">Select Country</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="Togo">Togo</option>
+            <option value="Benin">Benin</option>
+            <option value="Burkina Faso">Burkina Faso</option>
+        </select> <br> <br>
+        
+        <!-- Gender (Radio Button) Section -->
+        <label for="radio">Gender</label>
+        <input type="radio" id="male" value="Male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="Female" name="gender">
+        <label for="male">Female</label>
+        <input type="radio" id="not" value="Male" name="gender">
+        <label for="male">Not Interested</label> <br> <br>
+        
+        <!-- Interests (Checkbox) Section -->
+        <label for="checkbox">Interests</label>
+        <input type="checkbox" id="football" value="Football" name="interests">
+        <label for="football">Football</label>
+        <input type="checkbox" id="basketball" value="Basketball" name="interests">
+        <label for="basketball">Basketball</label>
+        <input type="checkbox" id="swimming" value="Swimming" name="interests">
+        <label for="swimming">Swimming</label> <br> <br>
+    </form> <br> <br>
+    <footer>&copy; 2025 Arnold Kwame Anyor.</footer>
+</body>
+</html>
